@@ -1,0 +1,207 @@
+html {
+	scroll-behavior: smooth;	
+}
+
+body {
+	width: 100%;
+	background-image: url('..//img/white-light-abstract.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+}
+
+header {
+	margin-top: 18em;
+	margin-bottom: 25em;
+}
+
+.menu {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	width : 80%;
+	margin-left: 10%;
+	background-color: white;
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: center;
+}
+
+header a {
+	padding: 10px;
+	height: 80px;
+	width: 33%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C0C0C0;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+ 	position: relative;
+  	display: inline-block;
+}
+
+.svg_cartouche {
+	width: 50px;
+	height: 50px;
+}
+.svg_cartouche_hover {
+	width: 0px;
+	height: 0px;
+}
+header a:after, {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;	
+}
+
+a:hover .svg_cartouche {
+	width: 0px;
+	height: 0px;
+  	transition-property: width, height;
+  	transition-delay: 0.33s;
+  	transition-timing-function: linear;
+}
+a:hover .svg_cartouche_hover {
+	width: 50px;
+	height: 50px;
+  	transition-property: width, height;
+  	transition-delay: 0.33s;
+  	transition-timing-function: linear;
+}
+/*#dfdfdf*/
+header a:hover, .icon-bar a:hover {	
+	background-color: #C0C0C0;
+	border-color: white;
+	color: white;
+  	transition-property: background-color,border-color,color;
+  	transition-duration: 0.4s;
+  	transition-timing-function: linear;
+}
+
+
+.centrer_verticale {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/**/
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  background-color: white;
+  	border-style: solid;
+	border-width: 1px;
+	border-color: #C0C0C0;
+}
+
+/* Style the social media icons with color, if you want */
+
+
+
+.sticky {
+ 	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/**/
+
+
+.centrer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20em;
+}
+.contenu {
+	max-width: 30em;
+	padding: 2em;
+	background-color: white;
+}
+
+.sous-partie {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.sous-sous-partie {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	background: #183152;
+	align-items: stretch;
+}
+
+.svg {
+	width: 30px;
+	height: 30px;
+	margin-right: 0.5em;
+}
+
+h1 {
+	font-size: 24px;
+	flex: 100%;
+	text-align: center;
+	color: #E1E6FA;
+	font-family: 'Lemonada', cursive;
+}
+
+
+
+p {
+	padding: 1em;
+	font-size: 15px;
+	background-color: #E1E6FA;
+	flex: 2;
+	text-align: center;
+	display: block;
+	color: #183152;
+}
+
+
+.bloc_gauche {
+	font-weight: bold;
+	background-color: #C4D7ED;
+	padding: 1em;
+	flex: 1;
+
+}
+
+ul.principal {
+	padding: 1em;
+	font-size: 15px;
+	background-color: #E1E6FA;
+	flex: 2;
+	display: block;
+	color: #183152;
+}
+
+li.description_liste {
+	list-style-type: none;
+	margin-bottom: 0.3em;
+}
+li.competence_liste {
+	margin-left: 1.3em;
+}
+li.ul_secondaire {
+	list-style-type: none;
+}
