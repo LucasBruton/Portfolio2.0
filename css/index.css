@@ -40,8 +40,6 @@ header a {
 	text-decoration: none;
 	color: black;
 	text-align: center;
- 	position: relative;
-  	display: inline-block;
 }
 
 .svg_cartouche {
@@ -51,14 +49,6 @@ header a {
 .svg_cartouche_hover {
 	width: 0px;
 	height: 0px;
-}
-header a:after, {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;	
 }
 
 a:hover .svg_cartouche {
@@ -95,20 +85,17 @@ header a:hover, .icon-bar a:hover {
 /**/
 /* Style the icon bar links */
 .icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-  background-color: white;
+  	display: block;
+  	text-align: center;
+  	padding: 16px;
+  	transition: all 0.3s ease;
+  	color: white;
+  	font-size: 20px;
+ 	background-color: white;
   	border-style: solid;
 	border-width: 1px;
 	border-color: #C0C0C0;
 }
-
-/* Style the social media icons with color, if you want */
-
 
 
 .sticky {
@@ -147,7 +134,7 @@ header a:hover, .icon-bar a:hover {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
-	background: #183152;
+	background: black;
 	align-items: stretch;
 }
 
@@ -161,8 +148,8 @@ h1 {
 	font-size: 24px;
 	flex: 100%;
 	text-align: center;
-	color: #E1E6FA;
-	font-family: 'Lemonada', cursive;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -170,17 +157,17 @@ h1 {
 p {
 	padding: 1em;
 	font-size: 15px;
-	background-color: #E1E6FA;
+	background-color: #dfdfdf;
 	flex: 2;
 	text-align: center;
 	display: block;
-	color: #183152;
+	color: black;
 }
 
 
 .bloc_gauche {
 	font-weight: bold;
-	background-color: #C4D7ED;
+	background-color: #C0C0C0;
 	padding: 1em;
 	flex: 1;
 
@@ -189,10 +176,10 @@ p {
 ul.principal {
 	padding: 1em;
 	font-size: 15px;
-	background-color: #E1E6FA;
+	background-color: #dfdfdf;
 	flex: 2;
 	display: block;
-	color: #183152;
+	color: black;
 }
 
 li.description_liste {
