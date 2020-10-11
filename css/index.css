@@ -13,9 +13,11 @@ body {
 }
 
 header {
-	margin-top: 18em;
+	margin-top: 12em;
 	margin-bottom: 25em;
 }
+
+
 
 .menu {
 	font-family: 'Montserrat', sans-serif;
@@ -28,6 +30,21 @@ header {
 	flex-direction: row;
 	justify-content: space-around;
 	align-self: center;
+}
+.accueil {
+	margin-bottom: 3em;
+	padding: 10px;
+	background-color: white;
+	border: solid;
+	border-color: #C0C0C0;
+	border-width: 1px;
+}
+
+.round_image {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+
 }
 
 header a {
@@ -79,6 +96,11 @@ header a:hover, .icon-bar a:hover {
 .centrer_verticale {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+}
+.centrer_horizontale {
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
 }
 
@@ -195,7 +217,8 @@ li.ul_secondaire {
 
 .barre_blanche {
 	border-top: solid;
-	color: white;
+	border-color: white;
+	border-width: 2em;
 	padding-top: 1em;
 }
 
@@ -215,6 +238,19 @@ img.illustration {
 	margin-bottom: 10px;
 	
 }
+
+.pomme {
+	background-color: #DC143C;
+}
+
+.sudoku {
+	background-color: #87CEFA
+}
+
+.quizz {
+	background-color: #4169E1;
+}
+
 img.illustration2 {
 
 	width: 250px;
@@ -231,8 +267,8 @@ img.illustration2 {
 	justify-content: space-around;
 	left: 0;
 	bottom: 0;
-	margin-bottom: 2em;
-	padding-bottom: 10px;
+	margin-bottom: 1em;
+	padding-bottom: 5px;
 }
 .boutton{
 	padding: 1em;
@@ -288,4 +324,13 @@ p.realisations {
 
 	background-color: black;
 	color: white;
+}
+
+.email {
+	text-decoration-line: none;
+	color: black;
+}
+.email:hover {
+	text-decoration-line: underline;
+	text-decoration-color: black;
 }
