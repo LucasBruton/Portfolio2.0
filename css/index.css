@@ -141,6 +141,7 @@ header a:hover, .icon-bar a:hover {
 	margin-bottom: 20em;
 }
 .contenu {
+	width: 60%;
 	max-width: 30em;
 	padding: 2em;
 	background-color: white;
