@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio de Lucas Bruton</title>
   <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -20,8 +20,8 @@
     <div class="menu">
       <a class="centrer_verticale" href="#formation"><div>CV<br><img src="icone/cv.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/></div></a>
       <a class="centrer_verticale" href="#snake"><div>Réalisations<br><img src="icone/projet.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></div></a>
-      <a class="centrer_verticale" href="#contact"><div>Contact<br><img src="icone/email.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></div></a>
       <a class="centrer_verticale" href="#hobbies"><div>Hobbies<br><img src="icone/hobbies.svg" class="svg_cartouche"/><img src="icone/hobbies_hover.svg" class="svg_cartouche_hover"/></div></a>
+      <a class="centrer_verticale" href="#contact"><div>Contact<br><img src="icone/email.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></div></a> 
     </div>
   </header>
 
@@ -31,13 +31,17 @@
   
     <div class="sous-partie" id="formation">
       <div class="sous-sous-partie">
-          <h1><img src="icone/education.svg" class="svg" />Formation</h1> 
+          <h1><img src="icone/education.svg" class="svg" />Formation</h1>
           <p class="bloc_gauche">2020-2021</p>
-          <p>2e année de DUT informatique <br>IUT Sénart-Fontainebleau</p>
+          <ul class="principal">
+           <li class="description_liste">2e année de DUT informatique <br>IUT Sénart-Fontainebleau</li>
+          </ul>
       </div>
       <div class="sous-sous-partie"> 
           <p class="bloc_gauche">Juin 2019</p>
-          <p>Bac S - Mention Très Bien<br>Options Informatique et Latin</p>
+          <ul class="principal">
+            <li class="description_liste">Bac S - Mention Très Bien<br>Options Informatique et Latin</li>
+          </ul>
       </div>      
     </div>
 
@@ -62,7 +66,7 @@
           <p class="bloc_gauche">Avril 2015</p>
           <ul class="principal">
             <li class="description_liste">Stage de 3e d'une semaine en médiathèque</li>
-            <li class="competence_liste">Acceuil du public</li>
+            <li class="competence_liste">Accueil du public</li>
             <li class="competence_liste">Réception des ouvrages avec vérification</li>
             <li class="competence_liste">Rangement et classement</li>
           </ul>
@@ -99,14 +103,18 @@
       <div class="sous-sous-partie">
         <h1><img src="icone/info.svg" class="svg" /></object>Informations diverses</h1> 
           <p class="bloc_gauche">Age</p>
-          <p> 20 ans</p>
+          <ul class="principal">
+            <li class="description_liste">20 ans</li>
+          </ul>
       </div>
       <div class="sous-sous-partie">
           <p class="bloc_gauche">Permis B</p>
-          <p>Véhiculé</p>
+          <ul class="principal">
+            <li class="description_liste">Véhiculé</li>
+          </ul>
       </div>
       <div class="sous-sous-partie">
-          <p class="bloc_gauche">Engagement citoyen au collège</p>
+          <p class="bloc_gauche">Engagement citoyen<br> au collège</p>
           <ul class="principal">
             <li class="description_liste">Membre du CCJ de Leynes (71)</li>
             <li class="competence_liste">Organisation d'évènements dans la commune</li>
@@ -132,7 +140,7 @@
   
     <div class="sous-partie" id="snake">
       <div class="sous-sous-partie">
-        <h1><img src="icone/apple.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/>Snake</h1>
+        <h1><img src="icone/apple.svg" class="svg" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/>Snake</h1>
           <div class="illustr pomme">
             <img src="img/snake.png" alt="image Snake" class="illustration">
           </div>
@@ -150,9 +158,9 @@
 
     <div class="sous-partie" id="sudoku">
       <div class="sous-sous-partie">
-        <h1 class="barre_blanche"><object data="icone/sudoku.svg" type="image/svg+xml" class="svg"></object>Sudoku</h1>
+        <h1 class="barre_blanche"><img src="icone/sudoku.svg" class="svg" />Sudoku</h1>
           <div class="illustr sudoku">
-            <img src="img/sudoku.PNG" alt="image Sudoku" class="illustration">
+            <img src="img/sudoku.PNG" alt="image Sudoku" class="illustration pomme_svg">
           </div>
       </div>   
       <div class="sous-sous-partie">
@@ -170,7 +178,7 @@
 
     <div class="sous-partie" id="quizz">
       <div class="sous-sous-partie">
-        <h1 class="barre_blanche"><object data="icone/quizz.svg" type="image/svg+xml" class="svg"></object>Site dynamique</h1>
+        <h1 class="barre_blanche"><img src="icone/quizz.svg" class="svg" />Site dynamique</h1>
           <div class="illustr quizz">
             <img src="img/quizz.PNG" alt="image quizz" class="illustration2">
           </div>
@@ -189,31 +197,6 @@
   </div>
 </div>
 
-<div class="centrer">
-  <div class="contenu">
-  
-    <div class="sous-partie" id="contact">
-      <div class="sous-sous-partie"> 
-        <h1><img src="icone/email_hover.svg" class="svg" />Contact</h1>
-          <p class="bloc_gauche">Nom</p>
-          <p>Lucas Bruton</p>
-      </div> 
-      <div class="sous-sous-partie"> 
-          <p class="bloc_gauche">Adresse</p>
-          <p>710 rue Berthelot<br>69400 Villefranche-Sur-Saône</p>
-      </div> 
-      <div class="sous-sous-partie">  
-          <p class="bloc_gauche">E-mail</p>
-          <p><a class="email" href="mailto:lucas.bruton9@gmail.com">lucas.bruton9@gmail.com</a></p>
-      </div>
-      <div class="sous-sous-partie"> 
-          <p class="bloc_gauche">N° de Téléphone</p>
-          <p>+33 6 99 39 60 82</p>
-      </div>      
-    </div>
-
-  </div>
-</div>
 
 <div class="centrer">
   <div class="contenu">
@@ -257,7 +240,7 @@
             <a class="bordure_droite" href="https://patrickness.com/">
               <img src="img/chaos_walking.gif" alt="image Chaos Walking" class="illustration_hobbie">
             </a>
-            <a class="bordure_droite" href="http://www.jamesdashner.com/">
+            <a href="http://www.jamesdashner.com/">
               <img src="img/maze-runner.jpg" alt="image de labyrinthe" class="illustration_hobbie">
             </a>
           </div>
@@ -284,7 +267,7 @@
             <a class="bordure_droite" href="https://nier.square-enix-games.com/fr-fr/age-gate/">
               <img src="img/nier_automata.png" alt="image de B2" class="illustration_hobbie">
             </a>
-            <a class="bordure_droite" href="https://euw.leagueoflegends.com/fr/">
+            <a href="https://euw.leagueoflegends.com/fr/">
               <img src="img/lol_logo.jpg" alt="logo LOL" class="illustration_hobbie">
             </a>
           </div>
@@ -310,15 +293,15 @@
             <a class="bordure_droite" href="https://overlordmaruyama.fandom.com/wiki/Overlord_Wiki">
               <img src="img/overlord.png" alt="image de Tanya von Degurechaff" class="illustration_hobbie">
             </a>
-            <a class="bordure_droite" href="https://youjo-senki.fandom.com/wiki/Youjo_Senki_Wiki">
+            <a href="https://youjo-senki.fandom.com/wiki/Youjo_Senki_Wiki">
               <img src="img/youjo_senki.png" alt="image de Ainz Ooal Gown" class="illustration_hobbie">
             </a>
           </div>
           <div class="legendes">
             <p class="legende">Puella Magi Madoka Magica</p> 
             <p class="legende">Steins;Gate</p> 
-            <p class="legende">Steins;Gate</p> 
-            <p class="legende_right">Overlord</p> 
+            <p class="legende">Overlord</p> 
+            <p class="legende_right">Youjo Senki</p> 
           </div>
 
       </div>
@@ -326,11 +309,26 @@
   </div>
 </div>
 
+<div class="centrer">
+  <div class="contenu">
+  
+    <div class="sous-partie" id="contact">
+      <div class="sous-sous-partie"> 
+        <h1><img src="icone/email_hover.svg" class="svg" />Contact</h1>
+      </div> 
+    </div>
+    <div class="carte_visite">
+      <div>Test123</div>
+    </div>
+
+  </div>
+</div>
+
 <div class="icon-bar" id="icon-bar">
   <a href="#formation"><img src="icone/cv_sticky.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/></a>
   <a href="#snake"><img src="icone/projet_sticky.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></a>
-  <a href="#contact"><img src="icone/email_sticky.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></a>
   <a href="#hobbies"><img src="icone/hobbies_sticky.svg" class="svg_cartouche"/><img src="icone/hobbies_hover.svg" class="svg_cartouche_hover"/></a>
+  <a href="#contact"><img src="icone/email_sticky.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></a>
 </div>
 
 <script>
@@ -340,7 +338,7 @@ var header = document.getElementById("icon-bar");
 var sticky = header.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > 900) {
+  if (window.pageYOffset > 550) {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
