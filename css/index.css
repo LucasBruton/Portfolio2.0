@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	width: 100%;
+	width: 99%;
 	background-image: url('..//img/white-light-abstract.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -425,5 +425,27 @@ img.illustration_hobbie {
 
 .carte_visite {
 	background-image: url('..//img/white-light-abstract.png');
+	padding-top: 1em;
+}
+.carte_visite1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.carte_visite1 div {
+	flex:1;
+	padding-bottom: 10px;
+	height: 50px;
+}
+.espace_gauche {
+	margin-left: 2em;
 }
 
+footer {
+	width: 100%;
+	font-size: 18px;
+	background-color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
