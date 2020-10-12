@@ -181,6 +181,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0.7em;
 	margin-top: 1em;
+	margin-left: 0.8em;
 	vertical-align: middle;
 }
 
@@ -242,7 +243,7 @@ li.ul_secondaire {
 	border-top: solid;
 	border-color: white;
 	border-width: 2em;
-	padding-top: 1em;
+	padding-top: 0;
 }
 
 .illustr {
@@ -261,6 +262,47 @@ img.illustration {
 	margin-bottom: 10px;
 	
 }
+.formation_svg {
+	position: relative;
+	top: -5px;	
+}
+.experiences_svg {
+	position: relative;
+	top: -5px;	
+}
+.competences_svg {
+	position: relative;
+	top: -5px;
+}
+.info_svg {
+	position: relative;
+	top: -4px;	
+}
+.pomme_svg {
+	position: relative;
+	top: -8px;
+}
+.quizz_svg {
+	position: relative;
+	top: -8px;
+}
+.musique_svg {
+	position: relative;
+	top: -8px;	
+}
+.lecture_svg {
+	position: relative;
+	top: -4px;
+}
+.jeux_videos {
+	position: relative;
+	top: -8px;	
+}
+.anime_svg {
+	position: relative;
+	top: -8px;	
+}
+
 
 .pomme {
 	background-color: #DC143C;
@@ -347,10 +389,14 @@ p.realisations {
 
 	background-color: #303030;
 	color: white;
-	text-align: left;
+	text-align: center;
 }
 
 .email {
+	text-decoration-line: none;
+	color: #303030;
+}
+.numero {
 	text-decoration-line: none;
 	color: #303030;
 }
@@ -400,7 +446,7 @@ img.illustration_hobbie {
 }
 
 .legendes {
-	margin: -10px;
+	margin: -11px;
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-around;  
