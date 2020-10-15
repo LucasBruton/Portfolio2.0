@@ -562,11 +562,15 @@ p.legende, p.legende_right {
 header a {
 	width: 20%;
 }
+.round_image {
+	height: 60px;
+	width: 60px;
+}
 .menu, .accueil {
-	font-size: 18px;
+	font-size: 16px;
 }
 .realis {
-	font-size: 14px;
+	font-size: 12px;
 }
 .bloc_gauche,ul.principal,p {
 	font-size: 10px;
@@ -583,5 +587,13 @@ img.illustration2 {
 }
 img.illustration_hobbie {
 	border-width: 2px;
+}
+p.legende, p.legende_right {
+	font-size: 8px;
+}
+img.illustration_hobbie {
+	
+	width: 40px;
+	height: 40px;
 }
 }
