@@ -556,6 +556,32 @@ p.legende, p.legende_right {
 }
 
 }
-@media screen and (max-width: 500px) {
 
+
+@media screen and (max-width: 490px) {
+header a {
+	width: 20%;
+}
+.menu, .accueil {
+	font-size: 18px;
+}
+.realis {
+	font-size: 14px;
+}
+.bloc_gauche,ul.principal,p {
+	font-size: 10px;
+}
+img.illustration {
+
+	width: 150px;
+	height: 100px;
+}
+img.illustration2 {
+
+	width: 200px;
+	height: 150px;
+}
+img.illustration_hobbie {
+	border-width: 2px;
+}
 }
