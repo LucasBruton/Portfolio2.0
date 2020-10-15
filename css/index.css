@@ -570,15 +570,18 @@ header a {
 	font-size: 16px;
 }
 .realis {
-	font-size: 12px;
+	font-size: 9px;
 }
 .bloc_gauche,ul.principal,p {
 	font-size: 10px;
 }
+.boutton {
+	font-size: 8px;
+}
 img.illustration {
 
 	width: 150px;
-	height: 100px;
+	height: 80px;
 }
 img.illustration2 {
 
@@ -595,5 +598,8 @@ img.illustration_hobbie {
 	
 	width: 40px;
 	height: 40px;
+}
+.reduire_mobile {
+	font-size: 10px;
 }
 }
