@@ -523,4 +523,26 @@ a:hover .svg_cartouche_hover {
   	transition-delay: 0.3s;
   	transition-timing-function: linear;
 }
+.boutton {
+	font-size: 10px;
+}
+img.illustration_hobbie {
+	
+	width: 60px;
+	height: 60px;
+}
+
+}
+
+
+@media screen and (max-width: 585px) {
+img.illustration_hobbie {
+	
+	width: 50px;
+	height: 50px;
+}
+p.legende, p.legende_right {
+	font-size: 9px;
+}
+
 }
