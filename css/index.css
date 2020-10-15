@@ -490,6 +490,72 @@ footer {
 	padding-bottom: 20px;
 }
 
+.openbtn {
+	position: fixed;
+	top: 0.5em;
+	left: 0.5em;
+	color: #536DFE;
+}
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding-bottom: 1.5em;
+	text-decoration: none;
+	font-size: 28px;
+	color: #536DFE;
+	display: inline-flex;
+	transition: 0.3s;
+}
+
+.svg_menu_mobile {
+	position: relative;
+	top: -10px;
+	width: 50px;
+	height: 50px;
+	margin-right: 0.5em;
+}
+
+.overlay a:hover {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	left: 45px;
+	font-size: 60px;
+}
+@media screen and (min-width: 490px) {
+.openbtn {
+	display: none;
+}
+}
+@media screen and (max-width: 490px) {
+.icon-bar {
+	display: none;
+}
+}
+
 @media screen and (max-width: 750px) {
 header a {
 	width: 23%;

@@ -25,6 +25,18 @@
     </div>
   </header>
 
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="overlay-content">
+      <a href="#formation"><img src="icone/cv.svg" class="svg_menu_mobile" />CV</a>
+      <a href="#snake"><img src="icone/projet.svg" class="svg_menu_mobile"/>Réalisations</a>
+      <a href="#hobbies"><img src="icone/hobbies.svg" class="svg_menu_mobile"/>Hobbies</a>
+      <a href="#contact"><img src="icone/email.svg" class="svg_menu_mobile"/>Contact</a>
+    </div>
+  </div>
+
+   <span class="openbtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 <div class="centrer">
   <div class="contenu">
@@ -358,6 +370,13 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+}
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
 </script>
 </body>
