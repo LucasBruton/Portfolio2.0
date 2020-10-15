@@ -608,4 +608,16 @@ img.illustration_hobbie {
 	position: relative;
 	top: 1.5em;
 }
+.svg_realisation {
+	width: 20px;
+	height: 20px;
+}
+.boutton:hover .svg_realisation_hover {
+	width: 20px;
+	height: 20px;
+	margin-right: 0.5em;
+  	transition-property: all;
+  	transition-delay: 0.33s;
+  	transition-timing-function: linear;
+}
 }
