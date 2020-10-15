@@ -581,12 +581,12 @@ header a {
 img.illustration {
 
 	width: 150px;
-	height: 80px;
+	height: 100px;
 }
 img.illustration2 {
 
 	width: 200px;
-	height: 150px;
+	height: 120px;
 }
 img.illustration_hobbie {
 	border-width: 2px;
@@ -601,5 +601,11 @@ img.illustration_hobbie {
 }
 .reduire_mobile {
 	font-size: 10px;
+}
+.espace_gauche {
+	height: 75px;
+	width: 75px;
+	position: relative;
+	top: 1.5em;
 }
 }
