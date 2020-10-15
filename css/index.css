@@ -531,11 +531,18 @@ img.illustration_hobbie {
 	width: 60px;
 	height: 60px;
 }
+.carte_visite1 {
+	font-size: 14px;
+}
+.espace_gauche {
+	position: relative;
+	top: 1em;
+}
 
 }
 
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 600px) {
 img.illustration_hobbie {
 	
 	width: 50px;
@@ -544,5 +551,11 @@ img.illustration_hobbie {
 p.legende, p.legende_right {
 	font-size: 9px;
 }
+.carte_visite1 {
+	font-size: 12px;
+}
+
+}
+@media screen and (max-width: 500px) {
 
 }
