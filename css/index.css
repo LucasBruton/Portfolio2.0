@@ -499,11 +499,6 @@ footer {
 	top: 0.5em;
 	left: 0.5em;
 	color: #536DFE;
-	width: 10px;
-	height: 10px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #536DFE;
 }
 .overlay {
 	height: 100%;
@@ -554,18 +549,19 @@ footer {
 	left: 45px;
 	font-size: 60px;
 }
-@media screen and (min-width: 490px) {
+
+@media screen and (min-width: 600px) {
 .openbtn {
 	display: none;
 }
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 600px) {
 .icon-bar {
 	display: none;
 }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 header a {
 	width: 23%;
 }
@@ -629,14 +625,14 @@ p.legende, p.legende_right {
 .carte_visite1 {
 	font-size: 12px;
 }
-
+header .cartouche {
+	display: none;
+}
 }
 
 
 @media screen and (max-width: 490px) {
-header a {
-	display: none;
-}
+
 .round_image {
 	height: 60px;
 	width: 60px;
@@ -699,5 +695,8 @@ img.illustration_hobbie {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 8em;
+}
+header .cartouche {
+	display: none;
 }
 }
