@@ -256,7 +256,7 @@ li.ul_secondaire {
 	flex-flow: row wrap;
 	justify-content: center; 
 	width: 100%;
-	background-color: #536DFE;
+	background-color:#616161;
 }
 
 img.illustration {
@@ -496,6 +496,11 @@ footer {
 	top: 0.5em;
 	left: 0.5em;
 	color: #536DFE;
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #536DFE;
 }
 .overlay {
 	height: 100%;
@@ -627,7 +632,7 @@ p.legende, p.legende_right {
 
 @media screen and (max-width: 490px) {
 header a {
-	width: 20%;
+	display: none;
 }
 .round_image {
 	height: 60px;
@@ -640,7 +645,7 @@ header a {
 	font-size: 9px;
 }
 .bloc_gauche,ul.principal,p {
-	font-size: 10px;
+	font-size: 9px;
 }
 .boutton {
 	font-size: 8px;
@@ -686,5 +691,10 @@ img.illustration_hobbie {
   	transition-property: all;
   	transition-delay: 0.33s;
   	transition-timing-function: linear;
+}
+.centrer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 8em;
 }
 }
