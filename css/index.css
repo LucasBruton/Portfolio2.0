@@ -389,14 +389,14 @@ p.realisations {
 
 .email {
 	text-decoration-line: none;
-	color: #536DFE;;
+	color: #303030;
 }
 .numero {
 	margin-left: 2em;
 }
 .email:hover {
 	text-decoration-line: underline;
-	text-decoration-color: #536DFE;
+	text-decoration-color: #303030;
 }
 
 .gallerie {
@@ -466,7 +466,7 @@ img.illustration_hobbie {
 .carte_visite {
 	background-image: url('..//img/white-light-abstract.png');
 	padding-top: 1em;
-	color:#536DFE;
+	color: #303030;
 }
 .carte_visite1 {
 	display: flex;
@@ -480,6 +480,9 @@ img.illustration_hobbie {
 }
 .espace_gauche {
 	margin-left: 2em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #616161;
 }
 
 footer {
