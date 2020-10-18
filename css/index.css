@@ -1,6 +1,4 @@
-html {
-	scroll-behavior: smooth;	
-}
+
 
 body {
 	width: 99%;
@@ -43,6 +41,26 @@ header {
 	border-width: 1px;
 	color: white;
 }
+.sous_menu {
+	margin-bottom: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid;
+	border-color: #536DFE;
+	border-width: 1px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	background-color: #303030;
+	color: white;
+	display : flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	width: 100%;
+
+}
 
 .round_image {
 	border-radius: 50%;
@@ -61,7 +79,7 @@ header a {
 	border-width: 1px;
 	border-color: #536DFE;
 	text-decoration: none;
-	color: #536DFE;
+	color: white;
 	text-align: center;
 }
 
@@ -117,9 +135,7 @@ header a:hover, .icon-bar a:hover {
   	text-align: center;
   	padding: 16px;
   	transition: all 0.3s ease;
-  	color: white;
   	font-size: 20px;
- 	background-color: #303030;
   	border-style: solid;
 	border-width: 1px;
 	border-color: #536DFE;
@@ -144,7 +160,7 @@ header a:hover, .icon-bar a:hover {
 .centrer {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 18em;
+	margin-bottom: 15em;
 }
 .contenu {
 	width: 60%;
@@ -159,7 +175,7 @@ header a:hover, .icon-bar a:hover {
 	justify-content: center;
 }
 
-.sous-sous-partie {
+.sous-sous-partie, sous {
 	flex: 1;
 	display: flex;
 	flex-flow: wrap;
@@ -182,7 +198,7 @@ h1 {
 	font-size: 24px;
 	flex: 100%;
 	text-align: left;
-	color: #536DFE;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0.7em;
 	margin-top: 1em;
@@ -309,7 +325,9 @@ img.illustration {
 }
 
 
-
+.police_bleu {
+	color: #536DFE;
+}
 
 img.illustration2 {
 
@@ -526,7 +544,7 @@ footer {
 	padding-bottom: 1.5em;
 	text-decoration: none;
 	font-size: 28px;
-	color: #536DFE;
+	color: white;
 	display: inline-flex;
 	transition: 0.3s;
 }
@@ -550,10 +568,26 @@ footer {
 	font-size: 60px;
 }
 
+.show {
+	background-color: #303030;
+}
+.show .svg_cartouche_hover {
+	width: 50px;
+	height: 50px;
+}
+.show .svg_cartouche {
+	width: 0px;
+	height: 0px;
+}
+.hide {
+	background-color: #303030;;
+}
+
 @media screen and (min-width: 600px) {
 .openbtn {
 	display: none;
 }
+
 }
 @media screen and (max-width: 600px) {
 .icon-bar {
@@ -587,6 +621,11 @@ h1 {
 	width: 25px;
 	height: 25px;
 }
+.show .svg_cartouche_hover {
+	width: 25px;
+	height: 25px;
+}
+
 a:hover .svg_cartouche_hover {
 	width: 25px;
 	height: 25px;
@@ -698,5 +737,9 @@ img.illustration_hobbie {
 }
 header .cartouche {
 	display: none;
+}
+header {
+	margin-top: 6em;
+	margin-bottom: 5em;
 }
 }

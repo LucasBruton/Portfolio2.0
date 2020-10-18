@@ -18,8 +18,8 @@
         <div class="centrer_verticale">Portfolio de Lucas Bruton</div>
     </div>
     <div class="menu cartouche">
-      <a class="centrer_verticale" href="#formation"><div>CV<br><img src="icone/cv.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/></div></a>
-      <a class="centrer_verticale" href="#snake"><div class="realis">Réalisations<br><img src="icone/projet.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></div></a>
+      <a class="centrer_verticale" href="#cv"><div>CV<br><img src="icone/cv.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/></div></a>
+      <a class="centrer_verticale" href="#realisations"><div class="realis">Réalisations<br><img src="icone/projet.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></div></a>
       <a class="centrer_verticale" href="#hobbies"><div>Hobbies<br><img src="icone/hobbies.svg" class="svg_cartouche"/><img src="icone/hobbies_hover.svg" class="svg_cartouche_hover"/></div></a>
       <a class="centrer_verticale" href="#contact"><div>Contact<br><img src="icone/email.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></div></a> 
     </div>
@@ -29,8 +29,8 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
     <div class="overlay-content">
-      <a href="#formation"><img src="icone/cv.svg" class="svg_menu_mobile" />CV</a>
-      <a href="#snake"><img src="icone/projet.svg" class="svg_menu_mobile"/>Réalisations</a>
+      <a href="#cv"><img src="icone/cv.svg" class="svg_menu_mobile" />CV</a>
+      <a href="#realisations"><img src="icone/projet.svg" class="svg_menu_mobile"/>Réalisations</a>
       <a href="#hobbies"><img src="icone/hobbies.svg" class="svg_menu_mobile"/>Hobbies</a>
       <a href="#contact"><img src="icone/email.svg" class="svg_menu_mobile"/>Contact</a>
     </div>
@@ -40,10 +40,12 @@
 
 <div class="centrer">
   <div class="contenu">
-  
-    <div class="sous-partie" id="formation">
+      <div class="sous_menu" id="cv">
+        <h1><img src="icone/cv.svg" class="svg formation_svg" />CV</h1>
+      </div>
+    <div class="sous-partie">
       <div class="sous-sous-partie">
-          <h1><img src="icone/education.svg" class="svg formation_svg0" />Formation</h1>
+          <h1><img src="icone/education.svg" class="svg formation_svg" />Formation</h1>
           <p class="bloc_gauche">2020-2021</p>
           <ul class="principal">
            <li class="description_liste">2e année de DUT informatique <br>IUT Sénart-Fontainebleau</li>
@@ -149,7 +151,9 @@
 
 <div class="centrer">
   <div class="contenu">
-  
+       <div class="sous_menu" id="realisations">
+        <h1><img src="icone/projet.svg" class="svg formation_svg" />Realisations</h1>
+      </div> 
     <div class="sous-partie" id="snake">
       <div class="sous-sous-partie">
         <h1><img src="icone/apple.svg" class="svg" />Snake</h1>
@@ -212,10 +216,12 @@
 
 <div class="centrer">
   <div class="contenu">
-  
+      <div class="sous_menu" id="cv">
+        <h1><img src="icone/hobbies.svg" class="svg formation_svg" />Hobbies</h1>
+      </div>
     <div class="sous-partie" id="hobbies">
       <div class="sous-sous-partie"> 
-        <h1><img src="icone/music.svg" class="svg musique_svg" />Musique</h1>
+        <h1 class="police_bleu"><img src="icone/music.svg" class="svg musique_svg" />Musique</h1>
           <div class="gallerie">
             <a class="bordure_droite" href="https://www.monstercat.com/">
               <img src="img/monstercat.jpg" alt="logo Monstercat" class="illustration_hobbie">
@@ -241,7 +247,7 @@
     </div>
     <div class="sous-partie">
       <div class="sous-sous-partie"> 
-        <h1><img src="icone/livre.svg" class="svg lecture_svg" />Lecture</h1>
+        <h1 class="police_bleu"><img src="icone/livre.svg" class="svg lecture_svg" />Lecture</h1>
           <div class="gallerie">
             <a class="bordure_droite" href="https://warriorcats.com/">
               <img src="img/guerre_des_clans2.jpg" alt="logo Guerre des Clans" class="illustration_hobbie">
@@ -268,7 +274,7 @@
 
     <div class="sous-partie">
       <div class="sous-sous-partie"> 
-        <h1><img src="icone/game.svg" class="svg jeux_videos" />Jeux Vidéos</h1>
+        <h1 class="police_bleu"><img src="icone/game.svg" class="svg jeux_videos" />Jeux Vidéos</h1>
           <div class="gallerie">
             <a class="bordure_droite" href="https://bindingofisaacrebirth-fr.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki">
               <img src="img/binding_of_isaac.jpg" alt="Image d'Isaac" class="illustration_hobbie">
@@ -294,7 +300,7 @@
     </div>
     <div class="sous-partie">
       <div class="sous-sous-partie"> 
-        <h1><img src="icone/anime.svg" class="svg anime_svg" />Anime</h1>
+        <h1 class="police_bleu"><img src="icone/anime.svg" class="svg anime_svg" />Anime</h1>
           <div class="gallerie">
             <a class="bordure_droite" href="https://madoka.fandom.com/wiki/Main_Page">
               <img src="img/madoka_magica.jpg" alt="image de Homura Akemi" class="illustration_hobbie">
@@ -324,11 +330,9 @@
 <div class="centrer">
   <div class="contenu blanc">
   
-    <div class="sous-partie" id="contact">
-      <div class="sous-sous-partie"> 
-        <h1><img src="icone/email.svg" class="svg" />Contact</h1>
-      </div> 
-    </div>
+      <div class="sous_menu" id="contact">
+        <h1><img src="icone/email.svg" class="svg formation_svg" />Contact</h1>
+      </div>
     <div class="carte_visite">
       <div class="carte_visite1">
         <div><img src="img/profile.jpg" class="round_image espace_gauche" /></div>
@@ -352,16 +356,20 @@
 </footer>
 
 <div class="icon-bar" id="icon-bar">
-  <a href="#formation"><img src="icone/cv.svg" class="svg_cartouche" /><img src="icone/cv_hover.svg" class="svg_cartouche_hover"/></a>
-  <a href="#snake"><img src="icone/projet.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></a>
-  <a href="#hobbies"><img src="icone/hobbies.svg" class="svg_cartouche"/><img src="icone/hobbies_hover.svg" class="svg_cartouche_hover"/></a>
-  <a href="#contact"><img src="icone/email.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></a>
+  <a id="show_formation" href="#cv"><img src="icone/CV.svg" class="svg_cartouche"/><img src="icone/CV_hover.svg" class="svg_cartouche_hover"/></a>
+  <a id="show_project" href="#realisations"><img src="icone/projet.svg" class="svg_cartouche"/><img src="icone/projet_hover.svg" class="svg_cartouche_hover"/></a>
+  <a id="show_hobbies" href="#hobbies"><img src="icone/hobbies.svg" class="svg_cartouche"/><img src="icone/hobbies_hover.svg" class="svg_cartouche_hover"/></a>
+  <a id="show_contact" href="#contact"><img src="icone/email.svg" class="svg_cartouche"/><img src="icone/email_hover.svg" class="svg_cartouche_hover"/></a>
 </div>
 
 <script>
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction();myFunction2();myFunction3();myFunction4();myFunction5()};
 
 var header = document.getElementById("icon-bar");
+var formation = document.getElementById("show_formation"); 
+var project = document.getElementById("show_project"); 
+var hobbies = document.getElementById("show_hobbies"); 
+var contact = document.getElementById("show_contact"); 
 var sticky = header.offsetTop;
 
 function myFunction() {
@@ -370,7 +378,92 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+
 }
+function myFunction2() {
+  if(window.matchMedia("(min-width: 800px)").matches) {
+    if (window.pageYOffset > 700 && window.pageYOffset <2400) {
+      formation.classList.add("show");
+      formation.classList.remove("hide");
+    } else {
+      formation.classList.remove("show");
+      formation.classList.add("hide");
+    }    
+  }else {
+    if (window.pageYOffset > 600 && window.pageYOffset <2100) {
+      formation.classList.add("show");
+      formation.classList.remove("hide");
+    } else {
+      formation.classList.remove("show");
+      formation.classList.add("hide");
+    }
+  }
+
+
+}
+
+function myFunction3() {
+  if(window.matchMedia("(min-width: 800px)").matches) {
+    if (window.pageYOffset > 2500 && window.pageYOffset <4300) {
+      project.classList.add("show");
+      project.classList.remove("hide");
+    } else {
+      project.classList.remove("show");
+      project.classList.add("hide");
+    }
+  } else {
+    if (window.pageYOffset > 2200 && window.pageYOffset <3800) {
+      project.classList.add("show");
+      project.classList.remove("hide");
+    } else {
+      project.classList.remove("show");
+      project.classList.add("hide");
+    }
+  }
+
+}
+function myFunction4() {
+  if(window.matchMedia("(min-width: 800px)").matches) {
+    if (window.pageYOffset > 4500 && window.pageYOffset < 5800) {
+      hobbies.classList.add("show");
+      hobbies.classList.remove("hide");
+    } else {
+      hobbies.classList.remove("show");
+      hobbies.classList.add("hide");
+    }
+  }else {
+    if (window.pageYOffset > 3900 && window.pageYOffset < 4800) {
+      hobbies.classList.add("show");
+      hobbies.classList.remove("hide");
+    } else {
+      hobbies.classList.remove("show");
+      hobbies.classList.add("hide");
+    }    
+  }
+
+}
+function myFunction5() {
+  if(window.matchMedia("(min-width: 800px)").matches) {
+      if (window.pageYOffset >5800) {
+        contact.classList.add("show");
+        contact.classList.remove("hide");
+      } else {
+        contact.classList.remove("show");
+        contact.classList.add("hide");
+      }
+  }else {
+    if (window.pageYOffset >4800) {
+      contact.classList.add("show");
+      contact.classList.remove("hide");
+    } else {
+      contact.classList.remove("show");
+      contact.classList.add("hide");
+    }
+   
+  }
+
+}
+
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -378,6 +471,33 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 </body>
 </html>
